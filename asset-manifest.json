@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/hair-haven/static/css/main.772be157.css",
+    "main.js": "/hair-haven/static/js/main.8139b400.js",
+    "static/js/453.ff03b588.chunk.js": "/hair-haven/static/js/453.ff03b588.chunk.js",
+    "index.html": "/hair-haven/index.html",
+    "main.772be157.css.map": "/hair-haven/static/css/main.772be157.css.map",
+    "main.8139b400.js.map": "/hair-haven/static/js/main.8139b400.js.map",
+    "453.ff03b588.chunk.js.map": "/hair-haven/static/js/453.ff03b588.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.772be157.css",
+    "static/js/main.8139b400.js"
+  ]
+}
