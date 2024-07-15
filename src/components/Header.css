@@ -1,9 +1,11 @@
 /* Header.css */
 
+/* Your existing styles */
+
 .announcement-bar {
-  text-align: center; 
-  background-color: #f0f0f0; 
-  padding: 10px 0; 
+  text-align: center; /* Center the text horizontally */
+  background-color: #f0f0f0; /* Example background color */
+  padding: 10px 0; /* Adjust padding as needed */
 }
 
 .home-header {
@@ -24,7 +26,7 @@
 
 .home-header h1 {
   margin: 0;
-  font-size: 36px; 
+  font-size: 36px; /* Increased font size for the title */
   color: #333;
 }
 
@@ -44,7 +46,7 @@
 
 .home-menu li {
   margin: 0 10px;
-  position: relative; 
+  position: relative; /* Added position relative */
 }
 
 .home-menu a {
@@ -54,6 +56,7 @@
   font-size: 14px;
 }
 
+/* Dropdown menu styles */
 .dropdown {
   position: relative;
 }
@@ -83,6 +86,6 @@
 }
 
 .dropdown:hover .home-menu a {
-  background-color: #f9f9f9; 
-  color: #333; 
+  background-color: #f9f9f9; /* Change background color of main link on hover */
+  color: #333; /* Change text color of main link on hover */
 }

@@ -5,7 +5,7 @@ import './Home.css';
 
 function Home({ navigateTo }) {
   const [currentBanner, setCurrentBanner] = useState(0);
-  const bannerCount = 3; 
+  const bannerCount = 3; // Number of banners
 
   useEffect(() => {
     const bannerItems = document.querySelectorAll('.banner-item');
@@ -15,9 +15,9 @@ function Home({ navigateTo }) {
 
     const interval = setInterval(() => {
       setCurrentBanner((prevBanner) => (prevBanner + 1) % bannerCount);
-    }, 3000); 
+    }, 3000); // Change banner every 3 seconds
 
-    return () => clearInterval(interval); 
+    return () => clearInterval(interval); // Clear interval on component unmount
   }, [currentBanner]);
 
   const handleCircleClick = (index) => {

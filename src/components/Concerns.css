@@ -1,13 +1,15 @@
+/* Concerns.css */
+
 .concerns-page {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start; 
-  height: 100vh; 
-  overflow: hidden; 
-  background-color: #fff; 
-  padding-top: 60px; 
-  box-sizing: border-box; 
+  justify-content: flex-start; /* Adjust alignment as needed */
+  height: 100vh; /* Full viewport height */
+  overflow: hidden; /* Prevent scrolling */
+  background-color: #fff; /* Set your desired background color */
+  padding-top: 60px; /* Adjust based on your header height */
+  box-sizing: border-box; /* Ensure padding is included in height */
 }
 
 .concerns-page h2 {
@@ -17,12 +19,12 @@
 
 .concerns-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); 
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr); /* Adjust columns as needed */
+  grid-template-rows: repeat(2, 1fr); /* Adjust rows as needed */
   width: 100%;
-  height: calc(100vh - 60px); 
-  margin-top: 20px; 
-  overflow: hidden; 
+  height: calc(100vh - 60px); /* Adjust for header height */
+  margin-top: 20px; /* Adjust to add spacing between header and grid */
+  overflow: hidden; /* Prevent content overflow */
 }
 
 .concern {
@@ -31,13 +33,13 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  background-color: #fffdf0; 
-  border: 1px solid #ffaf7a; 
-  height: 100%; 
+  background-color: #fffdf0; /* Set your desired background color */
+  border: 1px solid #ffaf7a; /* Add borders or styling as needed */
+  height: 100%; /* Ensure each quadrant fills the grid cell */
 }
 
 .concern:hover {
-  background-color: #e34e4e; 
+  background-color: #e34e4e; /* Hover background color */
 }
 
 .concern h3 {

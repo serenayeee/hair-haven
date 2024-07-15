@@ -2,12 +2,13 @@
 
 import React, { useState } from 'react';
 import Header from './Header';
-import './Product6.css'; 
+import './Product6.css'; // Import your CSS file for Product6
 
 const Product6 = ({ navigateTo }) => {
-  const [quantity, setQuantity] = useState(1); 
+  const [quantity, setQuantity] = useState(1); // State for quantity
 
   const handleQuantityChange = (value) => {
+    // Function to handle quantity change
     if (value >= 1) {
       setQuantity(value);
     }
@@ -24,6 +25,8 @@ const Product6 = ({ navigateTo }) => {
   };
 
   const handleAddToCart = () => {
+    // Function to handle adding to cart
+    // Implement your logic here
     alert(`Added ${quantity} item(s) to cart!`);
   };
 

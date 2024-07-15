@@ -4,12 +4,12 @@
     align-items: center;
     padding: 20px;
     box-sizing: border-box;
-    margin-top: 120px; 
+    margin-top: 120px; /* Adjust this value to create space below the header */
   }
   
   .cart-container {
     width: 100%;
-    max-width: 600px; 
+    max-width: 600px; /* Adjust max-width as needed */
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
@@ -18,7 +18,7 @@
   
   .cart-header {
     display: flex;
-    justify-content: center; 
+    justify-content: center; /* Center align the content horizontally */
     align-items: center;
     width: 100%;
     margin-bottom: 20px;
@@ -26,8 +26,8 @@
   
   .cart-title {
     font-size: 24px;
-    text-align: center; 
-    margin: 0; 
+    text-align: center; /* Center align the text */
+    margin: 0; /* Remove any default margin */
   }
   
   .cart-close-button {

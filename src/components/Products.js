@@ -43,6 +43,7 @@ const productsData = [
   { id: 38, name: 'Wella Color Shampoo', price: '$31.99', image: '/product38.png', reviews: '4.6/5', category: 'shampoos' },
   { id: 39, name: 'Wella Nourishment Mask', price: '$27.99', image: '/product39.png', reviews: '4.4/5', category: 'masks-creams' },
   { id: 40, name: 'Wella Nourishing Conditioner', price: '$31.99', image: '/product40.png', reviews: '4.5/5', category: 'conditioners' },
+  // Add more products as needed
 ];
 
 function Products({ navigateTo }) {
@@ -63,6 +64,7 @@ function Products({ navigateTo }) {
   const filterProducts = (category) => {
     setActiveCategory(category === 'all' ? null : category);
 
+    // Filter products based on category
     const filteredProducts = category === 'all' ? productsData : productsData.filter(product => {
       return product.category.includes(category);
     });

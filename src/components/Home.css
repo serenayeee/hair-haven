@@ -33,7 +33,7 @@
   
   .home-header h1 {
     margin: 0;
-    font-size: 36px; 
+    font-size: 36px; /* Increased font size for the title */
     color: #333;
   }
   
@@ -70,8 +70,8 @@
   }
   
   .cart-icon img {
-    width: 55px; 
-    height: 55px; 
+    width: 55px; /* Increased width for the cart icon */
+    height: 55px; /* Increased height for the cart icon */
   }
   
   .home-banner {
